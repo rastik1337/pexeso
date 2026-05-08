@@ -98,6 +98,9 @@ async function fetchImages(topic: string, count: number) {
           <p>
             Čas: <strong>{{ time }}s</strong>
           </p>
+          <h1>
+            Téma: <strong>{{ store.topic }}</strong>
+          </h1>
           <p>
             Otočení: <strong>{{ flips }}</strong>
           </p>
