@@ -17,11 +17,8 @@ defineEmits<{ flip: [] }>();
     class="aspect-square cursor-pointer rounded bg-blue-500 transition-transform duration-300 focus:ring-4 focus:ring-blue-800 focus:outline-none disabled:cursor-default"
     @click="$emit('flip')"
   >
-    <img
-      v-if="card.isFlipped || card.isMatched"
-      :src="card.imgUrl"
-      :alt="card.alt"
-      class="size-full rounded object-cover shadow-md"
-    />
+    <figure v-if="card.isFlipped || card.isMatched" class="size-full">
+      <img :src="card.imgUrl" :alt="card.alt" class="size-full rounded object-cover shadow-md" />
+    </figure>
   </button>
 </template>
