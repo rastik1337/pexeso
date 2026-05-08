@@ -3,7 +3,6 @@ import { ref, onMounted } from 'vue';
 import { useGameStore } from '@/stores/game';
 import Result from '@/components/Result.vue';
 import Board from '@/components/Board.vue';
-import RatelimitNotice from '@/components/RatelimitNotice.vue';
 
 const store = useGameStore();
 
