@@ -38,7 +38,5 @@ __screenshots__/
 # Vite
 *.timestamp-*-*.mjs
 
-.env
-
 # Local Netlify folder
 .netlify
