@@ -1,1 +1,1 @@
-# Semestral project - Pexeso
+# Semester project - Pexeso
